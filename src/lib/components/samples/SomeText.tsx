@@ -15,15 +15,14 @@ const SomeText = () => {
         <Heading as="h2" fontSize={{ base: "lg", sm: "2xl" }}>
           Hi Im DanZDi :)
         </Heading>
-        <Heading as="h2">
-          <Link
-            href="https://github.com/DanZvaa"
-            isExternal
-            rel="noopener noreferrer"
-          >
-            <HelperImage src="/github.svg" label="Github"></HelperImage>
-          </Link>
-        </Heading>
+
+        <Link
+          href="https://github.com/DanZvaa"
+          isExternal
+          rel="noopener noreferrer"
+        >
+          <HelperImage src="/github.svg" label="Github"></HelperImage>
+        </Link>
       </MotionBox>
     </Grid>
   );

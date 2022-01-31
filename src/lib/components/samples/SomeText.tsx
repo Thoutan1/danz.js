@@ -1,5 +1,7 @@
 import { Grid, Link, Heading } from "@chakra-ui/react";
+
 import MotionBox from "lib/components/motion/Box";
+
 import HelperImage from "./HelperImage";
 
 const SomeText = () => {
@@ -21,7 +23,7 @@ const SomeText = () => {
           isExternal
           rel="noopener noreferrer"
         >
-          <HelperImage src="/github.svg" label="Github"></HelperImage>
+          <HelperImage src="/github.svg" label="Github" />
         </Link>
       </MotionBox>
     </Grid>

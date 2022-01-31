@@ -5,8 +5,6 @@ import {
   useBreakpointValue,
   useColorMode,
 } from "@chakra-ui/react";
-//@ts-ignore
-import Typical from "react-typical";
 import MotionBox from "lib/components/motion/Box";
 
 const SomeText = () => {

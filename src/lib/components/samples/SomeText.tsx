@@ -1,5 +1,6 @@
-import { Grid, Heading } from "@chakra-ui/react";
+import { Grid, Link, Heading } from "@chakra-ui/react";
 import MotionBox from "lib/components/motion/Box";
+import HelperImage from "./HelperImage";
 
 const SomeText = () => {
   return (
@@ -13,6 +14,15 @@ const SomeText = () => {
       >
         <Heading as="h2" fontSize={{ base: "lg", sm: "2xl" }}>
           Hi Im DanZDi :)
+        </Heading>
+        <Heading as="h2">
+          <Link
+            href="https://github.com/DanZvaa"
+            isExternal
+            rel="noopener noreferrer"
+          >
+            <HelperImage src="/github.svg" label="Github"></HelperImage>
+          </Link>
         </Heading>
       </MotionBox>
     </Grid>

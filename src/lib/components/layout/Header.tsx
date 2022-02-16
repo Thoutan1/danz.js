@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Flex as="header" width="full" align="center">
       <Heading as="h1" size="md">
-        <Link href="/">@DanZDi</Link>
+        <Link href="/">@Renci11</Link>
       </Heading>
     </Flex>
   );

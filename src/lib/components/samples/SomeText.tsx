@@ -15,7 +15,7 @@ const SomeText = () => {
         marginX="auto"
       >
         <Heading as="h2" fontSize={{ base: "lg", sm: "2xl" }}>
-          Hi Im DanZDi :)
+          Hi Im Renci11 :)
         </Heading>
 
         <Link
